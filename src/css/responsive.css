@@ -1,0 +1,226 @@
+@media (max-width: 800px) {
+  .header .disclaimer h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .header .disclaimer p {
+    font-size: 1.7rem;
+    max-width: 36rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .header .date span,
+  .header .date h2 {
+    font-size: 1.7rem;
+  }
+
+  /* FORM */
+  .header .form {
+    max-width: 40%;
+  }
+
+  /* beneficios */
+  .benefits .benefit-elements img {
+    width: 220px;
+    height: 220px;
+  }
+  .benefits .benefit-elements .benefit p {
+    max-width: 220px;
+  }
+
+  /* curso */
+  .course-section .course {
+    margin: 4rem 0;
+    gap: 2rem;
+  }
+
+  .course-section .course img {
+    width: 384px;
+    height: 230px;
+  }
+
+  .course-section .course p {
+    font-size: 3rem;
+    max-width: 200px;
+  }
+
+  .course-section .course .course-detalhe .course-1 h3 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .course-section .course .course-detalhe .course-1 ul li {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+
+  .course-section .course-detalhe {
+    margin-bottom: 1rem;
+    padding: 0 20px;
+  }
+
+  .course-section .course .course-order {
+    padding-left: 50px;
+  }
+
+  .course-section .course .course-detalhe .course-img {
+    margin-left: 20px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 1.6rem;
+  }
+
+  .header .disclaimer h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .header .disclaimer p {
+    font-size: 2rem;
+    max-width: 36rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .header .date span,
+  .header .date h2 {
+    font-size: 2rem;
+  }
+
+  /* FORM */
+  .header .form {
+    padding: 1.5rem;
+    max-width: 90%;
+    margin-bottom: 1.7rem;
+    margin-top: 1.7rem;
+  }
+
+  /* beneficios */
+  .benefits {
+    width: auto;
+  }
+  .benefits .benefit-title {
+    text-align: center;
+  }
+
+  .benefits .benefit-elements {
+    height: auto;
+    flex-direction: column;
+    margin: 3.5rem 0;
+  }
+
+  .benefits .benefit-elements .benefit p {
+    padding: 2.5rem 0;
+  }
+
+  /* Seção local */
+  .local-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .local-section .local-event {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .local-section .local-text p {
+    display: none;
+  }
+
+  .local-section .local-text span {
+    margin: 1rem 0;
+  }
+
+  /* Seção curso */
+  .course-section .course {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4rem 3rem;
+    gap: 5rem;
+  }
+
+  .course-section .course .img-1 {
+    display: none;
+  }
+
+  .course-section .course p {
+    font-size: 3.5rem;
+    width: 300px;
+  }
+
+  .course-section .course .course-detalhe .course-1 {
+    max-width: 290px;
+    margin-bottom: 2rem;
+  }
+
+  .course-section .course .course-detalhe .course-1 h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .course-section .course .course-detalhe {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .course-section .course img {
+    width: 284px;
+    height: 180px;
+  }
+
+  .course-section .course .course-detalhe .course-img {
+    order: 2;
+  }
+
+  .course-section .course .course-detalhe .course-img .course-1.course-order {
+    order: 1;
+  }
+
+  .course-section .course .course-detalhe .course-1 ul li {
+    font-size: 1.5rem;
+  }
+
+  /* Inscrição */
+  .inscrition {
+    text-align: center;
+  }
+
+  .inscrition h3 {
+    font-size: 2.7rem;
+    color: var(--text-color);
+    margin-bottom: 2.5rem;
+  }
+
+  .inscrition input {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 4rem;
+  }
+
+  /* Rodapé */
+  footer h1 {
+    font-size: 3rem;
+  }
+
+  footer p {
+    font-size: 1.3rem;
+  }
+
+  footer .footer-text {
+    padding: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/font-awesome.css" />
+    <title>Visit Decoration</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="disclaimer">
+        <h1>Visit Decoration</h1>
+        <p>
+          Um evento que vai revolucionar a sua maneira de perceber a decoração
+          de ambientes.
+        </p>
+        <div class="date">
+          <h2>Data do evento:</h2>
+          <span>Sábado, 25 de Janeiro, a partir das 15h.</span>
+        </div>
+      </div>
+      <div class="form">
+        <p>Preencha o formulário para receber detalhes do evento.</p>
+        <form action="">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite o seu nome" required/>
+            <div class="span">
+              <span class="mensagem-erro invisible">campo obrigatório</span>
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite o seu e-mail" required/>
+            <div class="span">
+              <span class="mensagem-erro invisible">campo obrigatório</span>
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Digite o número do Whatsapp" required/>
+            <div class="span">
+              <span class="mensagem-erro invisible">campo obrigatório</span>
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="apartament">Apartamentos</option>
+              <option value="house">Casas</option>
+              <option value="garden">Jardins</option>
+              <option value="other">Outros</option>
+            </select>
+          </div>
+          <div class="btn-inscricao">
+            <input type="submit" class="btn" value="Quero me escrever" />
+          </div>
+        </form>
+      </div>
+    </header>
+    <section class="benefits">
+      <div class="benefit-title">
+        <span>O que você vai aprender:</span>
+      </div>
+      <div class="benefit-elements">
+        <div class="benefit">
+          <img
+            src="./src/images/bedroom1.jpg"
+            alt="Exemplo de decoração de um quarto"
+          />
+          <p>
+            Algumas das coisas que você vai aprender no nosso evente que vão
+            mudar o jeito de você ver a decoração.
+          </p>
+        </div>
+        <div class="benefit">
+          <img
+            src="./src/images/home1.jpg"
+            alt="Exemplo de decoração de uma sala"
+          />
+          <p>
+            Algumas das coisas que você vai aprender no nosso evente que vão
+            mudar o jeito de você ver a decoração.
+          </p>
+        </div>
+        <div class="benefit">
+          <img
+            src="./src/images/kitchen3.jpg"
+            alt="Exemplo de decoração de um quarto"
+          />
+          <p>
+            Algumas das coisas que você vai aprender no nosso evente que vão
+            mudar o jeito de você ver a decoração.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="local-section">
+      <div class="local-event">
+        <div class="icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="local">
+          <p>Rua do evento, 2357</p>
+          <p>Bairro</p>
+          <p>Abertura: 13h</p>
+        </div>
+      </div>
+      <div class="local-text">
+        <span>Local de destaque</span>
+        <p>
+          O evento será realizado em um local prestigiado pelos amantes de
+          Design de Interiores, onde teremos exemplos de vários ambientes, tanto
+          internos como externos para agradar os mais exigentes com decoração de
+          alto padrão.
+        </p>
+      </div>
+    </section>
+    <section class="course-section">
+      <div class="course">
+        <img class="img-1"
+          src="./src/images/home2.jpg"
+          alt="Exemplo de decoração de uma casa"
+        />
+        <p>Conheça os ambientes que você vai aprender a decorar.</p>
+      </div>
+      <div class="course">
+        <div class="course-detalhe">
+          <div class="course-1">
+            <h3>Detalhes</h3>
+            <ul>
+              <li>Posicionamento</li>
+              <li>Aproveitamento de espaço</li>
+              <li>Conbinação de cores</li>
+              <li>Organização</li>
+              <li>E muito mais...</li>
+            </ul>
+          </div>
+          <div class="course-img">
+            <img
+              src="./src/images/interior.jpg"
+              alt="Exemplo de decoração de uma casa"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="course">
+        <div class="course-detalhe">
+          
+          <div class="course-img">
+            <img class="img-order"
+              src="./src/images/kitchen2.jpg"
+              alt="Exemplo de decoração de uma casa"
+            />
+          </div>
+          <div class="course-1 course-order">
+            <h3>Objetos</h3>
+            <ul>
+              <li>Cadeiras</li>
+              <li>Mesas</li>
+              <li>Espelhos</li>
+              <li>Plantas</li>
+              <li>Cortinas</li>
+              <li>E muito mais...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="inscrition">
+      <h3>Gostou? Então inscreva-se para participar:</h3>
+      <a href="#header"><input type="button" value="solicitar inscrição"></a>
+    </section>
+    <footer>
+      <h1>Visit Decoration</h1>
+      <p class="footer-text">A evolução da decoração de interiores</p>
+      <p><span>Entre em contato:</span>visit@visitdecoration.com</p>
+      <p><span>Ou pelo telefone:</span>(99)99999-9999</p>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

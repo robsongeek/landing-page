@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Montserrat";
+  /* Para facilitar ao usar a unidade de medida rem 1.6rem = 16px */
+  font-size: 65.5%;
+  scroll-behavior: smooth;
+}
+
+/* HEARDER */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/kitchen1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.header .disclaimer h1 {
+  font-size: 3.5rem;
+  color: var(--primary);
+  margin-bottom: 5rem;
+}
+
+.header .disclaimer p {
+  font-size: 2.8rem;
+  color: var(--text-color);
+  max-width: 36rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 5rem;
+}
+
+.header .date h2 {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.header .date span {
+  font-size: 2.3rem;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* FORM */
+
+.header .form {
+  background-color: var(--secondary);
+  padding: 1.5rem;
+  max-width: 25%;
+  height: 85%;
+}
+
+.header .form p {
+  color: var(--text-secondary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.header .form .form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.header .form .form-group label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  margin-bottom: 0.3rem;
+}
+
+.header .form .form-group select,
+.header .form .form-group input {
+  border: none;
+  height: 3rem;
+  border-radius: 0.7rem;
+  outline: none;
+  padding: 6px 8px;
+}
+
+.header .form .btn-inscricao {
+  text-align: center;
+}
+
+.header .form .btn {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  border: none;
+  width: 90%;
+  cursor: pointer;
+  padding: 12px;
+  opacity: 0.6;
+  transition: 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.header .form .btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.header .form .form-group .span{
+  height: 13px;
+}
+
+span.mensagem-erro.invisible{
+  display: none;
+}
+
+span.mensagem-erro.active{
+  display: block;
+  color: #F52E2E;
+}
+
+/* beneficios */
+.benefits {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits .benefit-title {
+  background-color: var(--secondary);
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits .benefit-title span {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.benefits .benefit-elements {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.benefits .benefit-elements img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.benefits .benefit-elements .benefit p {
+  max-width: 250px;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Seção local */
+.local-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/home-office.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.local-section .local-event {
+  display: flex;
+  gap: 5rem;
+}
+
+.local-section .local-event .icon .fas {
+  font-size: 6rem;
+  color: var(--primary);
+  animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes downarrow {
+  0% {
+      -webkit-transform: translateY(0);
+      opacity: 0.4;
+  }
+
+  100% {
+      -webkit-transform: translateY(0.4em);
+      opacity: 0.9;
+  }
+}
+
+.local-section .local-event .local p {
+  font-size: 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.local-section .local-text span {
+  font-size: 4rem;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: bolder;
+  max-width: 350px;
+  display: block;
+  margin-bottom: 3.5rem;
+}
+
+.local-section .local-text p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  max-width: 380px;
+}
+
+/* Seção curso */
+.course-section .course {
+  display: flex;
+  justify-content: center;
+  margin: 6rem 0;
+  gap: 10rem;
+}
+
+.course-section .course p {
+  font-size: 5rem;
+  width: 350px;
+  font-weight: bolder;
+}
+
+.course-section .course .course-detalhe .course-1 h3 {
+  font-size: 3.5rem;
+  width: 350px;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.course-section .course .course-detalhe .course-1 ul li {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.course-section .course .course-detalhe .course-1 ul {
+  list-style-position: inside;
+}
+
+.course-section .course .course-detalhe .course-1 ul li:last-child {
+  font-weight: bolder;
+}
+
+.course-section .course-detalhe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6rem;
+  width: 100%;
+}
+
+.course-section .course img {
+  width: 584px;
+  height: 330px;
+}
+
+/* Inscrição */
+.inscrition {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/kitchen3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inscrition h3 {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 5rem;
+}
+
+.inscrition input {
+  font-size: 2rem;
+  background-color: var(--primary);
+  color: var(--text-color);
+  margin-bottom: 5rem;
+  padding: 1.5rem 8.5rem;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.5s ease-in-out;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.inscrition input:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-text,
+footer p,
+footer h1 {
+  color: var(--text-tertiary);
+}
+
+footer h1 {
+  font-size: 3rem;
+}
+
+footer p {
+  font-size: 2rem;
+}
+
+footer .footer-text {
+  padding: 2rem 0;
+  font-size: 2.5rem;
+}
+
+footer span {
+  font-weight: bolder;
+}
+
