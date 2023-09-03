@@ -71,7 +71,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 490px) {
   .header {
     flex-direction: column;
     height: auto;
